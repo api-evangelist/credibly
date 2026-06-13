@@ -1,0 +1,74 @@
+{
+  "@context": "https://schema.org",
+  "@type": "Organization",
+  "name": "Credibly",
+  "url": "https://www.credibly.com/",
+  "description": "Credibly is a small business lending platform offering a REST API for originating merchant cash advances, working capital loans, business lines of credit, equipment financing, and SBA loans through an approved broker and referral partner network.",
+  "sameAs": [
+    "https://www.linkedin.com/company/credibly",
+    "https://x.com/credibly360"
+  ],
+  "contactPoint": {
+    "@type": "ContactPoint",
+    "url": "https://www.credibly.com/contact/",
+    "contactType": "customer support"
+  },
+  "hasOfferCatalog": {
+    "@type": "OfferCatalog",
+    "name": "Credibly Financing Products",
+    "itemListElement": [
+      {
+        "@type": "Offer",
+        "name": "Merchant Cash Advance",
+        "url": "https://www.credibly.com/incredibly/blog/what-is-a-merchant-cash-advance/"
+      },
+      {
+        "@type": "Offer",
+        "name": "Working Capital Loan",
+        "url": "https://www.credibly.com/incredibly/blog/what-is-a-working-capital-loan/"
+      },
+      {
+        "@type": "Offer",
+        "name": "Business Line of Credit",
+        "url": "https://www.credibly.com/working-capital-loans/"
+      },
+      {
+        "@type": "Offer",
+        "name": "Equipment Financing",
+        "url": "https://www.credibly.com/incredibly/blog/what-is-equipment-financing/"
+      }
+    ]
+  },
+  "mainEntityOfPage": {
+    "@type": "WebSite",
+    "url": "https://www.credibly.com/",
+    "name": "Credibly"
+  },
+  "potentialAction": [
+    {
+      "@type": "Action",
+      "name": "Partner Portal Access",
+      "target": "https://portal.credibly.com/"
+    }
+  ],
+  "subjectOf": {
+    "@type": "WebAPI",
+    "name": "Credibly Lender API",
+    "description": "REST API (V2) enabling approved broker and referral partners to submit loan applications, upload supporting documentation, receive webhook-based status updates, identify outstanding stipulations, and track application lifecycle for small business financing products.",
+    "url": "https://api.credibly.com",
+    "documentation": "https://www.credibly.com/where-you-can-find-our-financing/",
+    "provider": {
+      "@type": "Organization",
+      "name": "Credibly"
+    },
+    "termsOfService": "https://www.credibly.com/contact/",
+    "featureList": [
+      "Loan Application Submission",
+      "Multi-Part Document Upload",
+      "Webhook-Based Status Notifications",
+      "Stipulation Identification",
+      "Application Lifecycle Tracking",
+      "SOC 2 Compliant"
+    ]
+  }
+}
