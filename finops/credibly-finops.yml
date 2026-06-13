@@ -1,0 +1,28 @@
+name: Credibly FinOps
+description: Financial operations considerations for integrating with the Credibly API. Credibly provides small business lending via API V2 to approved broker and referral partners. There is no per-call or metered API pricing — integration costs are indirect, tied to loan origination volume and partner agreement terms.
+url: https://www.credibly.com/where-you-can-find-our-financing/
+costModel:
+  type: Volume-based partnership
+  description: API access itself is provided free of charge with no usage-based fees. Revenue sharing and referral fee structures are negotiated per partner agreement and not publicly disclosed.
+  apiCost: $0 (no per-call fees for approved partners)
+  partnerFees: Negotiated — contact Credibly partner team
+loanProductCosts:
+  - product: Working Capital Loan
+    originationFee: 2.5% of funded amount
+    factorRateFrom: 1.11
+    repaymentFrequency: Daily or weekly debits
+  - product: Merchant Cash Advance
+    repaymentType: Percentage of daily card receipts
+    factorRate: Varies by risk profile
+  - product: Business Line of Credit
+    creditLimit: Up to $300,000
+    drawFees: Undisclosed — contact Credibly
+considerations:
+  - Credibly uses factor rates (not APR), so effective cost comparison with bank products requires conversion.
+  - Origination fee of 2.5% is deducted from loan proceeds at funding.
+  - Daily repayment debits affect borrower cash flow modeling for integrators building repayment projections.
+  - Webhook-driven integration model reduces polling costs for API consumers.
+  - No public sandbox pricing or test environment costs have been disclosed.
+  - SOC 2 compliance may reduce security audit overhead for enterprise integrators.
+partnerPortal: https://portal.credibly.com/
+contact: https://www.credibly.com/contact/

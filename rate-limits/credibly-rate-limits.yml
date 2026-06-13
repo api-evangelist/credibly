@@ -1,0 +1,10 @@
+name: Credibly API Rate Limits
+description: Credibly has not published explicit public rate limit figures for its API V2. API access is restricted to approved broker and referral partners. Based on published partner program terms, API usage is described as having no usage limits for Credibly-approved partners. Specific throttle thresholds, burst limits, and quota windows have not been disclosed publicly.
+url: https://www.credibly.com/where-you-can-find-our-financing/
+notes:
+  - Rate limit details are not publicly documented as of June 2026.
+  - Partners are advised to contact Credibly directly via the partner portal for current API quota and throttling policies.
+  - The partner program documentation states there are no usage limits, but this refers to licensing costs, not necessarily technical rate constraints.
+  - Credibly's API V2 uses webhook callbacks for asynchronous status updates, reducing the need for high-frequency polling.
+partnerPortal: https://portal.credibly.com/
+contact: https://www.credibly.com/contact/

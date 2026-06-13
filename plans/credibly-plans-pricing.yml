@@ -1,0 +1,49 @@
+name: Credibly Plans and Pricing
+description: Credibly offers small business lending products with pricing based on factor rates rather than traditional interest rates. There is no published API access tier pricing — API integration is available to broker and referral partners through the partner program.
+url: https://www.credibly.com/where-you-can-find-our-financing/
+plans:
+  - name: Working Capital Loan
+    description: Short-term working capital financing for small businesses with flexible repayment.
+    url: https://www.credibly.com/working-capital-loans/
+    amountRange: $5,000 - $600,000
+    termRange: 3 - 18 months
+    factorRateFrom: 1.11
+    originationFee: 2.5%
+    repayment: Daily or weekly automatic debits
+    fundingSpeed: As fast as 4 hours
+    eligibility:
+      minMonthsInBusiness: 6
+      minMonthlySales: $15,000
+      minCreditScore: 500
+  - name: Merchant Cash Advance
+    description: Revenue-based financing for businesses with fluctuating or card-based revenue streams.
+    url: https://www.credibly.com/merchant-cash-advance/
+    amountRange: $5,000 - $400,000
+    repayment: Percentage of daily card sales
+    fundingSpeed: As fast as 4 hours
+  - name: Business Line of Credit
+    description: Revolving credit facility for ongoing working capital needs.
+    url: https://www.credibly.com/
+    amountRange: Up to $300,000
+    repayment: Revolving draw and repay
+  - name: Equipment Financing
+    description: Financing for business equipment purchase or replacement.
+    url: https://www.credibly.com/
+    repayment: Fixed monthly payments
+  - name: Long-Term Business Loan
+    description: Longer-duration loans for established businesses seeking growth capital.
+    url: https://www.credibly.com/
+    termRange: Up to several years
+  - name: SBA Loan
+    description: SBA-backed loans available through Credibly's partner network.
+    url: https://www.credibly.com/
+  - name: API Partner Integration
+    description: Broker and referral partners can access Credibly API V2 at no cost with no usage limits under the Credibly partner program.
+    url: https://www.credibly.com/where-you-can-find-our-financing/
+    price: Free for approved partners
+    features:
+      - Application submission via API
+      - Multi-part form file uploads
+      - Webhook-based status notifications
+      - Visibility into outstanding documentation
+      - Stipulation identification
