@@ -1,7 +1,7 @@
 aid: credibly
 name: Credibly
 description: Credibly is a small business lending platform offering a REST API (API V2) for originating merchant cash advances, working capital loans, business lines of credit, equipment financing, and SBA loans through an approved broker and referral partner network. The API supports application submission, multi-part document uploads, stipulation identification, and webhook-based status notifications within a SOC 2-compliant environment.
-image: https://kinlane-productions.s3.amazonaws.com/apis-json/apis-json-logo.jpg
+image: https://kinlane-images.s3.amazonaws.com/shared/apis-json/apis-json-logo.jpg
 url: https://raw.githubusercontent.com/api-evangelist/credibly/refs/heads/main/apis.yml
 created: '2026-06-13'
 modified: '2026-06-13'
@@ -19,7 +19,7 @@ apis:
   - aid: credibly:credibly-lender-api
     name: Credibly Lender API
     description: REST API (V2) enabling approved broker and referral partners to submit loan applications, upload supporting documentation, receive webhook-based status updates, identify outstanding stipulations, and track application lifecycle for small business financing products including merchant cash advances, working capital loans, and business lines of credit.
-    image: https://kinlane-productions.s3.amazonaws.com/apis-json/apis-json-logo.jpg
+    image: https://kinlane-images.s3.amazonaws.com/shared/apis-json/apis-json-logo.jpg
     humanURL: https://www.credibly.com/where-you-can-find-our-financing/
     baseURL: https://api.credibly.com
     tags:
