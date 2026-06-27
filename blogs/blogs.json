@@ -1,116 +1,13 @@
 {
-  "provider": "credibly",
-  "blogUrl": "https://www.credibly.com/incredibly/blogs/",
-  "lastFetched": "2026-06-13",
-  "posts": [
-    {
-      "title": "Revenue-Based Financing",
-      "url": "https://www.credibly.com/incredibly/blog/what-are-revenue-based-business-loans/",
-      "date": "2026-05-27",
-      "author": "Chad Cohen",
-      "description": "Explores capital options for small businesses, discussing traditional routes like bank loans as alternatives to revenue-based financing approaches."
-    },
-    {
-      "title": "Sole Proprietorship Taxes",
-      "url": "https://www.credibly.com/incredibly/blog/sole-proprietorship-taxes/",
-      "date": "2026-05-27",
-      "author": "John Madau",
-      "description": "Addresses tax considerations for sole proprietors, covering decisions entrepreneurs must make when starting a business structure."
-    },
-    {
-      "title": "MCA vs. Working Capital Loan",
-      "url": "https://www.credibly.com/incredibly/blog/mca-vs-working-capital-loan/",
-      "date": "2026-05-18",
-      "author": "Chad Cohen",
-      "description": "Compares merchant cash advances and working capital loans, examining which offer short-term capital for your business."
-    },
-    {
-      "title": "What is a Working Capital Loan?",
-      "url": "https://www.credibly.com/incredibly/blog/what-is-a-working-capital-loan/",
-      "date": "2026-04-30",
-      "author": "Chad Cohen",
-      "description": "Explains working capital loan fundamentals for business owners seeking operational funding."
-    },
-    {
-      "title": "Sources of Capital for Business",
-      "url": "https://www.credibly.com/incredibly/blog/sources-of-capital/",
-      "date": "2026-04-15",
-      "author": "Ryan Rosett",
-      "description": "Evaluates various capital sources available to growing businesses."
-    },
-    {
-      "title": "Business Loan Document Requirements",
-      "url": "https://www.credibly.com/incredibly/blog/business-loan-requirements-document/",
-      "date": "2026-04-15",
-      "author": "Chad Cohen",
-      "description": "Outlines necessary documentation needed when applying for business loans."
-    },
-    {
-      "title": "How Hard is it to Get a Business Loan?",
-      "url": "https://www.credibly.com/incredibly/blog/how-hard-is-it-to-get-a-business-loan/",
-      "date": "2026-04-15",
-      "author": "Chad Cohen",
-      "description": "Examines the difficulty and requirements involved in obtaining business financing."
-    },
-    {
-      "title": "Secured vs. Unsecured Business Loans",
-      "url": "https://www.credibly.com/incredibly/blog/are-small-business-loans-secured-or-unsecured/",
-      "date": "2026-04-15",
-      "author": "Chad Cohen",
-      "description": "Analyzes differences between secured and unsecured loan types and their significance."
-    },
-    {
-      "title": "AI Tools for Small Business Finance",
-      "url": "https://www.credibly.com/incredibly/blog/ai-tools-for-financial-services/",
-      "date": "2026-04-14",
-      "author": "Chad Cohen",
-      "description": "Covers artificial intelligence tools applicable to small business financial management."
-    },
-    {
-      "title": "Merchant Cash Advance Explained",
-      "url": "https://www.credibly.com/incredibly/blog/what-is-a-merchant-cash-advance/",
-      "date": "2026-04-07",
-      "author": "Chad Cohen",
-      "description": "Provides entrepreneur guidance on understanding and evaluating merchant cash advances."
-    },
-    {
-      "title": "Retail Cash Flow Management",
-      "url": "https://www.credibly.com/incredibly/blog/retail-cash-flow-management-tips/",
-      "date": "2026-03-09",
-      "author": "Chad Cohen",
-      "description": "Offers strategies for managing cash flow in retail business operations."
-    },
-    {
-      "title": "Small Business Financing Myths",
-      "url": "https://www.credibly.com/incredibly/blog/myths-and-truths-about-small-business-financing/",
-      "date": "2026-03-02",
-      "author": "Chad Cohen",
-      "description": "Separates fact from fiction regarding small business financing options."
-    },
-    {
-      "title": "Equipment Financing Guide",
-      "url": "https://www.credibly.com/incredibly/blog/what-is-equipment-financing/",
-      "date": "2026-02-28",
-      "author": "Chad Cohen",
-      "description": "Details equipment financing awareness for small business owners."
-    },
-    {
-      "title": "What is a Bridge Loan?",
-      "url": "https://www.credibly.com/incredibly/blog/bridge-loan-for-business/",
-      "date": "2026-02-27",
-      "author": "Chad Cohen",
-      "description": "Explains bridge loan mechanics and applications for business needs."
-    },
-    {
-      "title": "Finding a Private Business Lender",
-      "url": "https://www.credibly.com/incredibly/blog/how-to-find-a-private-business-lender/",
-      "date": "2026-02-24",
-      "author": "Chad Cohen",
-      "description": "Guides entrepreneurs in locating private lending sources."
-    }
-  ],
   "repo": "credibly",
   "feeds": [
+    {
+      "source": "https://www.credibly.com/feed/",
+      "feed_url": "https://www.credibly.com/feed/",
+      "title": "",
+      "saved": 0,
+      "method": "feed"
+    },
     {
       "source": "https://www.credibly.com/where-you-can-find-our-financing/",
       "feed_url": "https://www.credibly.com/feed/",
@@ -119,6 +16,6 @@
       "method": "discovered"
     }
   ],
-  "post_count": 0,
-  "fetched": "2026-06-14T20:42:17Z"
+  "fetched": "2026-06-27T12:03:07Z",
+  "post_count": 2
 }
