@@ -41,6 +41,15 @@ apis:
       - Business Lines of Credit
       - Loan Origination
       - Document Upload
+      - Webhook
+      - Partner API
+    tags_raw:
+      - Lending
+      - Merchant Cash Advance
+      - Working Capital Loans
+      - Business Lines of Credit
+      - Loan Origination
+      - Document Upload
       - Webhooks
       - Partner API
     properties:
