@@ -3,20 +3,20 @@
   "feeds": [
     {
       "source": "https://www.credibly.com/where-you-can-find-our-financing/",
-      "feed_url": "https://www.credibly.com/feed/",
+      "feed_url": "https://www.credibly.com/where-you-can-find-our-financing/",
       "title": "",
       "saved": 0,
-      "method": "discovered"
+      "method": "none"
     },
     {
       "source": "https://www.credibly.com/feed/",
       "feed_url": "https://www.credibly.com/feed/",
       "title": "",
       "saved": 0,
-      "method": "feed"
+      "method": "none"
     }
   ],
-  "fetched": "2026-09-06T19:17:18Z",
+  "fetched": "2026-09-13T13:00:00Z",
   "post_count": 16,
   "feed_nature": "vendor-blog",
   "feed_nature_basis": "path_blog",
