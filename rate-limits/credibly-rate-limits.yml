@@ -1,3 +1,7 @@
+# Provenance stamped 2026-10-07 (roadmap#943): written by an API Evangelist sweep (undated — the file carries no date and git cannot supply one), not
+# harvested from the provider. `method: generated` so the economics campaign may replace it with a
+# dated, verbatim transcription; every figure below is unverified until it does.
+method: generated
 name: Credibly API Rate Limits
 description: Credibly has not published explicit public rate limit figures for its API V2. API access is restricted to approved broker and referral partners. Based on published partner program terms, API usage is described as having no usage limits for Credibly-approved partners. Specific throttle thresholds, burst limits, and quota windows have not been disclosed publicly.
 url: https://www.credibly.com/where-you-can-find-our-financing/
