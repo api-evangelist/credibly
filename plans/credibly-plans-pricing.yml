@@ -51,3 +51,52 @@ plans:
       - Webhook-based status notifications
       - Visibility into outstanding documentation
       - Stipulation identification
+x-canonical:
+  generated: '2026-10-08'
+  vocabulary: all/0-working/economics/plans-canonical.yml
+  models:
+  - free
+  units: []
+  plans:
+  - name: Working Capital Loan
+    access: other
+    model: unstated
+    model_how: derived
+    units: []
+    periods: []
+  - name: Merchant Cash Advance
+    access: other
+    model: unstated
+    model_how: derived
+    units: []
+    periods: []
+  - name: Business Line of Credit
+    access: other
+    model: unstated
+    model_how: derived
+    units: []
+    periods: []
+  - name: Equipment Financing
+    access: other
+    model: unstated
+    model_how: derived
+    units: []
+    periods: []
+  - name: Long-Term Business Loan
+    access: other
+    model: unstated
+    model_how: derived
+    units: []
+    periods: []
+  - name: SBA Loan
+    access: other
+    model: unstated
+    model_how: derived
+    units: []
+    periods: []
+  - name: API Partner Integration
+    access: other
+    model: free
+    model_how: derived
+    units: []
+    periods: []
