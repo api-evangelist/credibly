@@ -64,35 +64,104 @@
 > Full detail: **[Where this data comes from](https://apievangelist.com/about/where-our-data-comes-from)**
 <!-- API-EVANGELIST-PROVENANCE:END -->
 
-Credibly is a small business lending platform that provides fast access to working capital through merchant cash advances, working capital loans, business lines of credit, equipment financing, and SBA loans. Founded in 2010 and headquartered in Michigan, Credibly has provided over $3 billion in financing to more than 55,000 businesses across all 50 U.S. states.
+Credibly is a small business lending platform offering a REST API (API V2) for originating merchant cash advances, working capital loans, business lines of credit, equipment financing, and SBA loans through an approved broker and referral partner network. The API supports application submission, multi-part document uploads, stipulation identification, and webhook-based status notifications within a SOC 2-compliant environment.
 
-## API
+**Areas:** Small Business Lending · Merchant Cash Advance · Working Capital · Business Loans · Fintech · Lending API · Partner Integration
 
-Credibly offers API V2, a REST API for approved broker and referral partners to programmatically originate and manage small business financing. The API is integrated within a SOC 2-compliant environment and supports:
+## Credibly on APIs.io
 
-- Application submission without external portals or email
-- Multi-part document and file uploads
-- Webhook-based real-time application status notifications
-- Stipulation identification for outstanding documentation requirements
-- Visibility into incomplete application documentation
+Everything profiled for Credibly is published on APIs.io rather than in this repository. Start at the provider page — **[apis.io/providers/credibly/](https://apis.io/providers/credibly/)** — or go straight to one of the APIs or properties below.
 
-API access is available at no cost with no usage limits to approved Credibly partners.
+### APIs (1)
 
-## Products
+- [Credibly Lender API](https://apis.io/apis/credibly/credibly-lender-api/) — REST API (V2) enabling approved broker and referral partners to submit loan applications, upload supporting documentation, receive webhook-based status…
 
-- Working Capital Loans ($5,000 - $600,000, 3-18 month terms)
-- Merchant Cash Advances ($5,000 - $400,000)
-- Business Lines of Credit (up to $300,000)
-- Equipment Financing
-- Long-Term Business Loans
-- SBA Loans (via partner network)
-- Business Checking Accounts
+### Published properties
 
-## Links
+Each property below is a page on APIs.io carrying the machine-readable artifact and what it says.
 
-- Website: https://www.credibly.com/
-- Partner Portal: https://portal.credibly.com/
-- Blog: https://www.credibly.com/incredibly/blog/
-- LinkedIn: https://www.linkedin.com/company/credibly
-- X: https://x.com/credibly360
-- Contact: https://www.credibly.com/contact/
+#### Security (1)
+
+Authentication, trust centre, and vulnerability disclosure.
+
+- [Credibly Domain Security](https://apis.io/security/credibly/credibly-domain-security/)
+
+#### Plans and pricing (1)
+
+Published plans, tiers and prices.
+
+- [Credibly Plans Pricing](https://apis.io/plans/credibly/credibly-plans-pricing/)
+
+#### Rate limits (1)
+
+Published request limits.
+
+- [Credibly Rate Limits](https://apis.io/rate-limits/credibly/credibly-rate-limits/)
+
+#### FinOps (1)
+
+What the API costs to run, by operation.
+
+- [Credibly Finops](https://apis.io/finops/credibly/credibly-finops/)
+
+## Where to find this API
+
+Links to the company's own pages. This repository publishes no copy of their specifications — the canonical document is theirs and lives at the URLs below.
+
+- [Website](https://www.credibly.com/)
+- [Documentation](https://www.credibly.com/where-you-can-find-our-financing/)
+- [Pricing](https://www.credibly.com/working-capital-loans/)
+- [Blog](https://www.credibly.com/incredibly/blog/)
+
+## API Evangelist rating
+
+**Kin Score 6.1** — minimal · rubric 0.24.0 · scored 2026-10-17
+
+| Facet | Score |
+|---|---|
+| Discoverability | 66.1 |
+| Contract quality | 0.0 |
+| Contract governance | 0.0 |
+| Operational transparency | 0.0 |
+| Developer ergonomics | 0.0 |
+| Access clarity | 7.9 |
+
+**Agent readiness 0.6** — human-only
+
+| Agent-readiness dimension | Result |
+|---|---|
+| Spec Presence | — |
+| Agentic Access | — |
+| Reversibility Documented | — |
+| MCP Server | — |
+| Auth Clarity | — |
+| Idempotency | — |
+| Error Semantics | — |
+| OpenAPI Examples | — |
+| Rate Limit Signal | derived (partial credit) |
+| Event Surface Described | — |
+| Agent Skills | — |
+| Well Known Catalog | — |
+| Consent Identity | — |
+| Agent Card | — |
+| Dry Run Mode | — |
+| Delegated Identity | — |
+| Protected Resource Metadata | — |
+| Dynamic Client Registration | — |
+| Agentic Commerce | — |
+
+**Regulatory alignment 5.4** — Payments
+
+The rubric is published at [github.com/api-evangelist/kin-score](https://github.com/api-evangelist/kin-score). The per-check breakdown behind these numbers — which checks were earned, partial or missed — along with score history and how this provider compares to its peers, is available at [apis.io/providers/credibly/](https://apis.io/providers/credibly/).
+
+## How this profile is made
+
+API Evangelist profiles a company's public API surface the way a developer would find it: the website, developer portal and documentation, the specifications it publishes, its public repositories, and its pricing, status and changelog pages. From that it derives the properties above — contracts split per API, workflows, schemas, collections, governance rules, plans and rate limits — and scores them against the published [Kin Score rubric](https://github.com/api-evangelist/kin-score).
+
+The artifacts are published on [APIs.io](https://apis.io), not in this repository. This repository is the public record for Credibly: the place to say something is wrong, missing or out of date, and to ask for a re-score or a removal.
+
+## Open an issue
+
+- **Something about this listing** — a wrong description, a missing API, a stale artifact or a question about the rating: [open an issue on this repository](https://github.com/api-evangelist/credibly/issues/new).
+- **A new API, or one that is not in the catalog yet** — [submit it on APIs.io](https://apis.io/add/).
+- **Anything else** — [the APIs.io inbox](https://github.com/api-search/inbox/issues/new) or [info@apievangelist.com](mailto:info@apievangelist.com).
